@@ -1,0 +1,18 @@
+{
+    "name": "edgji/oro-generator-bundle",
+    "description": "This bundle generates code for you to quick start your OroCRM or OroPlatform development",
+    "keywords": [],
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "require": {
+        "symfony/framework-bundle": "~2.2",
+        "symfony/console": "~2.0"
+    },
+    "require-dev": {
+        "twig/twig": "~1.11"
+    },
+    "autoload": {
+        "psr-4": { "Edgji\\OroGeneratorBundle\\": "" }
+    },
+    "minimum-stability": "dev"
+}
